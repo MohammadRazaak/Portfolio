@@ -50,6 +50,8 @@ body {
   line-height: 1.6;
   color: var(--text-primary);
   overflow-x: hidden;
+  background-color: var(--background-dark);
+
 }
 
 /* Custom Scrollbar */
@@ -363,7 +365,7 @@ body {
 
 .profile-image-container {
   margin-bottom: 2rem;
-  animation: bounceIn 1.2s ease-out 0.3s both;
+  /* animation: bounceIn 8.2s ease-out 0.3s both; */
 }
 
 @keyframes bounceIn {
@@ -386,7 +388,7 @@ body {
 .profile-image-outer {
   position: relative;
   display: inline-block;
-  animation: heroFloat 6s ease-in-out infinite;
+  /* animation: heroFloat 6s ease-in-out infinite; */
 }
 
 .profile-image-outer::before {
@@ -716,7 +718,10 @@ body {
   }
   
   .hero-section {
-      padding: calc(var(--navbar-height) + 1rem) 1rem 1rem;
+        margin-top: 19%;
+      
+
+      padding: calc(var(--navbar-height) + 2rem) 1rem 2rem;
   }
   
   .profile-image-inner {
@@ -988,13 +993,13 @@ body {
 }
 
 .first-name {
-  background: linear-gradient(135deg, #e68530 0%, #83C5BE 100%);
+  background: linear-gradient(135deg, #40ceeb 0%, #83C5BE 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .last-name {
-  background: linear-gradient(135deg, #83C5BE 0%, rgb(232, 97, 225) 100%);
+  background: linear-gradient(135deg, #83C5BE 0%, rgb(235, 216, 44) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, MapPin, ExternalLink, ChevronDown, Menu, X, Code, Briefcase, GraduationCap, User, Star } from 'lucide-react';
 import './App.css';
-import logo from './logo.png'; // Assuming you have a logo image in assets folder
+import logo1 from './profilepic.jpg'; 
+import logo from './logo.png'
+// Assuming you have a logo image in assets folder
 
 // Navigation items
 const navItems = [
@@ -236,11 +238,11 @@ const Portfolio = () => {
             <div className="profile-image-outer">
               <div className="profile-image-inner">
                 <img
-                  src={logo} // Replace with your actual image URL
+                  src={logo1} // Replace with your actual image URL
                   alt="Profile"
                   className="profile-image"
                 />
-                {/* {personalInfo.name.split(' ').map(n => n[0]).join('')} */}
+
                 
               </div>
               <div className="status-indicator">
