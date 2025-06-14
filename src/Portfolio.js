@@ -71,7 +71,7 @@ const Portfolio = () => {
         "JWT authentication, Web Notifications, service-worker optimized for PWA",
         "Hosted as a PWA for installable mobile experience"
       ],
-      tech: ["React", "Socket.io", "Node.js", "MongoDB", "Material UI"],
+      tech: ["React", "Socket.io", "Node.js", "MongoDB", "Material UI" , "Express"],
       liveUrl: "https://razchatz.netlify.app/",
       githubUrl: "https://github.com/MohammadRazaak",
       status: "Live"
