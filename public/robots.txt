@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mohammadrazak.xyz//sitemap.xml
+User-agent: bingbot
+Allow: /
+
+Sitemap: https://mohammadrazak.xyz/sitemap.xml
