@@ -1,5 +1,0 @@
-# Sitemap exception
-/sitemap.xml   /sitemap.xml   200
-
-# SPA fallback (this should come AFTER specific rules)
-/*    /index.html   200
