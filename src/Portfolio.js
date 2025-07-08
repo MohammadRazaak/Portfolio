@@ -99,10 +99,22 @@ const Portfolio = () => {
     {
       company: "ValueMomentum",
       position: "Software Engineer Intern",
-      duration: "Feb 2025 - Present",
+      duration: "Feb 2025 - Jul 2025",
       location: "Coimbatore, Tamil Nadu, India",
       type: "On-site",
       description: "Working with Microsoft Azure and developing scalable software solutions.",
+      achievements: [
+        "Developing enterprise-level applications",
+        "Working with cloud technologies",
+        "Collaborating with cross-functional teams"
+      ]
+    } ,{
+      company: "ValueMomentum",
+      position: "Software Engineer ",
+      duration: "Jul 2025 - Present",
+      location: "Coimbatore, Tamil Nadu, India",
+      type: "On-site",
+      description: "Working with Spring-Boot , Microservices , Hibernate , RESTful Api , Docker , AWS ,Kafka",
       achievements: [
         "Developing enterprise-level applications",
         "Working with cloud technologies",
